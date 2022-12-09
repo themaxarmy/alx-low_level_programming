@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /*
  * main - entry point
@@ -14,4 +14,6 @@ int main(void)
 	for (x = 'A'; x <= 'Z'; x++)
 		putchar(x);
 	putchar(\n);
+
+	return (0);
 }
