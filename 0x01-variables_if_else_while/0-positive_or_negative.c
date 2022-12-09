@@ -15,7 +15,7 @@ int main(void)
 	/* your code goes there */
 	if (n == 0)
 		printf("%d is zero\n", n);
-	else if (n % 2 == 1)
+	else if (n < 0)
 		printf("%d is negetive\n", n);
 	else
 		printf("%d is positive\n", n);
