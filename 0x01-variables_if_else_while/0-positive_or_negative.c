@@ -12,9 +12,9 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if(n%2 == 0)
+	if (n%2 == 0)
 	{
-		printf("%d is possitive", n);
+		printf ("%d is possitive", n);
 	}
 	else if (n%2 ==1) 
 	{
