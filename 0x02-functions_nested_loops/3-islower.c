@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * main - check if character is in lowercare.
+ * _islower - check if character is in lowercare.
+ *
+ * @c: The character in ASCII code
  *
  * Return: Always 0.
  */

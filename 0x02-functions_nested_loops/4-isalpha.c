@@ -2,7 +2,7 @@
 /**
 * _isalpha - check if input is an alphabet
 *
-* Using characters in ASCII code
+* @c: Using characters in ASCII code
 *
 * Return: 1 for letters. Returns 0 otherwise
 */
