@@ -5,8 +5,17 @@
 *
 * Return: Always 0.
 */
-int main(void)
+void times_table(void)
 {
-	times_table();
-	return (0);
+	int a;
+	int b;
+
+	for (a = 0; a <= 9; a++)
+	{
+		for (b = 0; b <= 9; b++)
+		{
+			printf("%d, ", a*b);
+		}
+		putchar("\n");
+	}
 }

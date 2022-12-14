@@ -25,7 +25,3 @@ int print_last_digit(int n)
 	return (l);
 	}
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Term
