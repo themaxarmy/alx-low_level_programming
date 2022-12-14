@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
 * main - Print the word "_putchar"
@@ -8,7 +8,15 @@
 
 int main(void)
 {
-	printf("_putchar\n");
+	int x;
+	char ch[] = "_putchar";
+
+	for (x = 0; x < 8; x++)
+	{
+		_putchar(ch[i]);
+	}
+
+	_putchar('\n');
 
 	return (0);
 }
