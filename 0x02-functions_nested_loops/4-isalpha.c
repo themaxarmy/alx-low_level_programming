@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
 * _isalpha - check if input is an alphabet
 *
