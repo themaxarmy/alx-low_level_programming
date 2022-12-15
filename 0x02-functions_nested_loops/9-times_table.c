@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* main - check the code for Holberton School students.
+* times_table - prints 9 time table.
 *
 * Return: Always 0.
 */
@@ -16,7 +16,7 @@ void times_table(void)
 		for (b = 0; b <= 9; b++)
 		{
 			c = a * b;
-			_putchar(c);
+			_putchar(c + ',' + ' ');
 		}
 		_putchar('\n');
 	}
