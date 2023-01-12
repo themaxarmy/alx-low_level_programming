@@ -8,7 +8,7 @@
  * @n: number of s2 to be added to s1
  * 
  *
- * Return: 
+ * Return: pointer to allocated memory or exit with 98 
  * */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n);

@@ -5,8 +5,8 @@
  * *malloc_cheched - allocates mem using malloc
  * @b: number of bytes to be allocated
  *
- *Return: pointer to allocated mem
- * */
+ * Return: pointer to allocated mem
+ **/
 
 void *malloc_checked(unsigned int b)
 {
@@ -16,6 +16,5 @@ void *malloc_checked(unsigned int b)
 
 	if (ptr == NULL)
 		exit(98);
-
 	return (ptr);
 }
